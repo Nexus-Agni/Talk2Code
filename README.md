@@ -1,4 +1,4 @@
-# Voice Cursor (NexusCoder)
+# Talk2Code
 
 An interactive voice-enabled AI coding assistant that lets you converse naturally (via speech or text) while it autonomously reasons over your project files, executes shell commands, searches the web, and iterates using a LangGraph workflow. It streams responses token-by-token, supports tool calling, and logs all activity to Langfuse for observability and analytics. Checkpointing is powered by MongoDB so multi-step conversations maintain state.
 
@@ -12,7 +12,7 @@ An interactive voice-enabled AI coding assistant that lets you converse naturall
 - Observability & Tracing: Full traces, spans, inputs/outputs captured through Langfuse (self-hostable via provided Docker Compose stack).
 - Web Search Integration: Uses Google Serper API (optional Tavily integration placeholder) for up-to-date coding/contextual info.
 - Safe Command Execution Wrapper: Executes shell commands and streams outputs (with basic error capture).
-- Structured System Persona: Enforced expert full‑stack & algorithms persona ("NexusCoder") with domain guardrails.
+- Structured System Persona: Enforced expert full‑stack & algorithms persona ("Talk2Code") with domain guardrails.
 - Extensible Tool Layer: Easily add new tools by decorating functions with `@tool` and binding them in `graph.py`.
 
 ## Tech Stack
@@ -191,4 +191,4 @@ Add your chosen license (MIT, Apache-2.0, etc.). Currently not specified.
 Built with LangChain, LangGraph, Google Gemini, Langfuse, and open-source Python libraries.
 
 ---
-Happy building with Voice Cursor / NexusCoder!
+Happy building with Voice Cursor / Talk2Code!
